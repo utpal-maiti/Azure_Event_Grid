@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_Event_Grid", "..\", "{A9B1B914-68BD-447E-AAB1-1C91BF1EE844}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54572"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Azure_Event_Grid\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54572\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54572"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Azure_Event_Grid\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54572\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54572"
+		SlnRelativePath = "..\..\Azure_Event_Grid\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{54ED0871-F1AB-4EAD-B27F-527F261885D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventPublisher", "EventPublisher\EventPublisher.csproj", "{132396AA-E131-439C-8D5A-07D4DD6F5854}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9B1B914-68BD-447E-AAB1-1C91BF1EE844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B1B914-68BD-447E-AAB1-1C91BF1EE844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B1B914-68BD-447E-AAB1-1C91BF1EE844}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B1B914-68BD-447E-AAB1-1C91BF1EE844}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{132396AA-E131-439C-8D5A-07D4DD6F5854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132396AA-E131-439C-8D5A-07D4DD6F5854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132396AA-E131-439C-8D5A-07D4DD6F5854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132396AA-E131-439C-8D5A-07D4DD6F5854}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{132396AA-E131-439C-8D5A-07D4DD6F5854} = {54ED0871-F1AB-4EAD-B27F-527F261885D3}
+	EndGlobalSection
+EndGlobal
